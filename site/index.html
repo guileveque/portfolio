@@ -12,7 +12,12 @@
         <p>Etudiant chez Web@cademie by EPITECH</p>
         <div class="button">
             <div class="button_contact">
-                <p>Contact</p>
+                <nav id="toggle-infos">Contact</nav>
+                <div id="toggle-info-content">
+                    <p>linkedin</p><br>
+                    <p>twitter</p><br>
+                    <p>mail</p><br>
+                </div>
             </div>
             <div class="button_projet">
                 <p>Projet</p>
@@ -36,7 +41,14 @@
                     <li></li>
             </ul>
     </div >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
 
 </body>
-<script src="app.js"></script>
 </html>
+<script>
+	$(document).ready(function(){
+$('h1').on('click', function(){
+    alert("gui")
+});
+	});
+</script>
