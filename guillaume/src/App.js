@@ -1,17 +1,28 @@
-import './App.css';
+import "./App.css";
 import Main from "./main.js";
-import {BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
+import Projet from "./projet.js";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
-function App() {
-  return (
+
+export default function App() {
+    return (
       <Router>
-          <div className="flex">
+        <div>
+          <Switch>
+            <Route exact path="/">
               <Main />
-          </div>
+            </Route>
+            <Route path="/projet">
+              <Projet />
+            </Route>
+          </Switch>
+        </div>
       </Router>
-
-  );
+    );
 }
-
-export default App;
 

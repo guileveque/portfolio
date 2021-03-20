@@ -4,11 +4,24 @@
     margin: 0px;
     padding: 0px;
 }
+#navBar {
+    z-index: 20;
+}
 
 body{
     font-family: 'Exo', sans-serif;
 }
 
+.button_cv {
+    margin-left: 50px;
+}
+.button_mail {
+    margin-left: 50px;
+}
+
+.button_projet {
+    margin-left: 50px;
+}
 
 .context {
     width: 100%;
@@ -29,6 +42,7 @@ body{
 
 .button {
     display: inline-flex;
+    margin-top: 60px;
 }
 
 
