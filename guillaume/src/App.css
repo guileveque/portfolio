@@ -32,6 +32,30 @@ body{
     
 }
 
+#input_contact {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+#input_contact_submit {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 35%;
+    margin-left: 30%;
+}
+
+#button_contact{
+    background-color: rgb(61, 112, 10);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+#button_contact:hover {
+    background-color: chartreuse;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
 
 
 .context h1{
