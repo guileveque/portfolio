@@ -11,6 +11,32 @@
 body{
     font-family: 'Exo', sans-serif;
 }
+.button {
+    display: flex;
+    flex-direction: inline;
+}
+@media screen and (max-width: 600px) {
+    .button {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .button_cv {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .button_mail {
+        margin-bottom: 40px;
+    }
+    
+    .button_projet {
+        margin-bottom: 40px;
+    }
+    .context {
+        top:1vh;
+        
+    }
+  } 
 
 .button_cv {
     margin-left: 50px;
@@ -21,6 +47,10 @@ body{
 
 .button_projet {
     margin-left: 50px;
+}
+.button_projet > div:nth-child(1) > a:nth-child(1){
+    text-decoration: none;
+    color: black;
 }
 
 .context {
@@ -36,25 +66,44 @@ body{
     width: 70%;
     margin: auto;
     margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+}
+#input_contact_sujet{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#title_modal{
+    margin-top: 30px;
 }
 #input_contact_submit {
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 35%;
-    margin-left: 30%;
+    width: 20%;
+    height: 30px;
+    margin-left: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 #button_contact{
-    background-color: rgb(61, 112, 10);
-    width: 100px;
-    height: 30px;
+    background-color:transparent;
+    width: 80px;
+    height: 20px;
     border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
 }
 #button_contact:hover {
-    background-color: chartreuse;
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
+    background-color: rgb(25, 97, 231);
+
 }
 
 
@@ -63,6 +112,25 @@ body{
     color: #fff;
     font-size: 50px;
 }
+.context h1:hover {
+    mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    mask-size: 200%;
+    animation: shine 2s infinite;
+}
+  
+@keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+}
+#epitech_image{
+    border-radius: 5%;
+}
+
 
 .button {
     display: inline-flex;
@@ -71,7 +139,7 @@ body{
 
 
 .area{
-    background: #4e54c8;  
+    background: #066cf1;  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
     height:100vh;

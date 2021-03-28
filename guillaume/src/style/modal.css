@@ -26,8 +26,8 @@
   }
 
 .modal-main{
-  width: 700px;
-  height: 600px;
+  width: 40%;
+  height: 82%;
   padding: auto;
   border-radius: 20px;
   background-color: lightsteelblue;
@@ -35,4 +35,13 @@
 form {
   display: flex;
   flex-direction: column;
+}
+
+#cv_image {
+  height: 90%;
+  margin-top: 35px;
+}
+#button_modal {
+  display: block;
+  margin: auto;
 }
