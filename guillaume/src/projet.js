@@ -9,30 +9,58 @@ function Projet(){
         <div>
             	<div class="section_title">
                     <div class="hero">
-                        <h1>Projet</h1>
-                        <h2>Projets réalisé par guillaume pendant la formation web@cademie</h2>
+                        <h1 id="title_project">Projets</h1>
+                        <h2 id="subtitle_project">Projets réalisé par guillaume pendant la formation web@cademie</h2>
                         <Link to="/"><div id="link_projet" >Retour au menu</div></Link>
                     </div>
                 </div>
                 <div class="container_main">
-                    <div id="projet1">
-                        <div id="picture_project1">
-                            <img src={DevCrush}>
-                            </img>
-                        </div>
-                        <div id='comment_picture1'>
-                            <p>Réalisation d'un site de rencontre</p><br></br>
-                            <p>Structure MVC et requettes ajax</p>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src={DevCrush} alt="Avatar" height="600" width="600" ></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>John Doe</h1>
+                                    <p>Architect  Engineer</p>
+                                    <p>We love that guy</p>
+                                </div>
                         </div>
                     </div>
-                    <div id="projet1">
-                        <div id="picture_project1">
-                            <img src={DevCrush}>
-                            </img>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src={DevCrush} alt="Avatar" ></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>John Doe</h1>
+                                    <p>Architect  Engineer</p>
+                                    <p>We love that guy</p>
+                                </div>
                         </div>
-                        <div id='comment_picture1'>
-                            <p>Création d'un jeu puissance 4</p><br></br>
-                            <p>Utilisation de jQuery</p>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src={DevCrush} alt="Avatar" ></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>John Doe</h1>
+                                    <p>Architect  Engineer</p>
+                                    <p>We love that guy</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src={DevCrush} alt="Avatar" ></img>
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>John Doe</h1>
+                                    <p>Architect  Engineer</p>
+                                    <p>We love that guy</p>
+                                </div>
                         </div>
                     </div>
                 </div>
