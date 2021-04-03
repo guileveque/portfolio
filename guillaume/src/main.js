@@ -15,6 +15,8 @@ import{ init } from 'emailjs-com';
 import CV from "./img/cv.png";
 import 'react-notifications/lib/notifications.css';
 import {NotificationContainer, NotificationManager} from 'react-notifications';
+import Cvhtml from "./cv.js";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 init("user_tkxypSsomPEpESZcwelDY");
 
 class Dashboard extends Component {
@@ -47,7 +49,7 @@ class Dashboard extends Component {
   sendEmail =(e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_opq364p', 'template_eb9f3pp', e.target, 'user_tkxypSsomPEpESZcwelDY')
+    emailjs.sendForm(/*'service_opq364p'*/'g', 'template_eb9f3pp', e.target, 'user_tkxypSsomPEpESZcwelDY')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -95,18 +97,32 @@ class Dashboard extends Component {
         </div>
         <div class="button">
             <div class="button_cv">
-              <div id="button_contact" onClick={this.showModal2}>View cv</div>
+              <div id="button_contact"><AnchorLink href="#cvmain">View cv</AnchorLink></div>
               <Modal show={this.state.show2} handleClose={this.hideModal2}><img id="cv_image" src={CV} width="530" height="650"></img></Modal>
             </div>
             <div class="button_mail">
               <Modal show={this.state.show} handleClose={this.hideModal}>
                 <div class="container_modal">
+                  <div>
+                    <ul class="circles">
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
                   <form onSubmit={this.sendEmail}>
                     <div id="title_modal">Contacter moi par E_mail</div>
-                    <input id="input_contact" type="text" name="name" placeholder="name"></input>
-                    <input id="input_contact" type="email" name="email" placeholder="email"></input>
-                    <input id="input_contact" type="text" name="subject" placeholder="sujet"></input>
-                    <textarea id="input_contact_sujet" name="message" placeholder="Votre message" rows="10" cols="30"></textarea>
+                    <input id="input_contact" type="text" name="name" placeholder="name" required></input>
+                    <input id="input_contact" type="email" name="email" placeholder="email" required></input>
+                    <input id="input_contact" type="text" name="subject" placeholder="sujet" required></input>
+                    <textarea id="input_contact_sujet" name="message" placeholder="Votre message" rows="10" cols="30" required></textarea>
                     <input id="input_contact_submit" type="submit" value="Envoyer"  onClick={this.createNotification('success')}></input>
                   </form>
                 </div>
@@ -132,10 +148,11 @@ class Dashboard extends Component {
               <li></li>
               <li></li>
               <li></li>
-              <li><img id="epitech_image" src={EPITECH} height="149" width="149"></img></li>
+              <li></li>
           </ul>
         </div>
     </div>
+    <Cvhtml />
       </main>
     );
   }

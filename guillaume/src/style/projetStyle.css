@@ -1,12 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
 body{
   margin: 0;
   background-color: #1abc9c;
+  font-family: 'Exo', sans-serif;
 }
 #title_project{
   margin-left: 47%;
+  color: white;
 }
 #subtitle_project{
   margin-left: 30%;
+  color: white;
+}
+.section_title{
+  margin-bottom: 100px;
+}
+#link_projet{
+  margin-left: 46%;
+  margin-top: 2em;
+  text-decoration: none;
+}
+#button_contact > a:nth-child(1){
+  text-decoration: none;
 }
 
 .container_main{
@@ -51,12 +67,7 @@ h1{
 Link {
   text-decoration: none;
 }
-#link_projet{
-  text-decoration: none;
-  color: black;
-  width: 150px;
-  border-radius: 5px;border: 1px solid black;
-}
+
 
 .flip-card {
   background-color: transparent;
@@ -91,6 +102,9 @@ Link {
   backface-visibility: hidden;
   
 }
+.flip-card-front{
+  opacity: 0.9;
+}
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
@@ -103,4 +117,20 @@ Link {
   background-color: #148f77;
   color: white;
   transform: rotateY(180deg);
+}
+.back_top{
+  margin-left: 47%;
+  margin-bottom: 2em;
+}
+.back_top_button{
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 70px;
+  height: 20px;
+  padding: 10px;
+  color: white;
+  transition: all 1s;
+}
+.back_top_button:hover{
+  background-color: #036d58;
 }
