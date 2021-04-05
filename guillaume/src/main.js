@@ -12,7 +12,6 @@ import Modal from './modal.js';
 import React, { Component } from "react";
 import emailjs from "emailjs-com";
 import{ init } from 'emailjs-com';
-import CV from "./img/cv.png";
 import 'react-notifications/lib/notifications.css';
 import {NotificationContainer, NotificationManager} from 'react-notifications';
 import Cvhtml from "./cv.js";
@@ -87,8 +86,8 @@ class Dashboard extends Component {
       <main>
     <div class="main_index">
       <div class="context">
-        <h1>Guillaume Leveque</h1>
-        <p>Etudiant chez Web@cademie by EPITECH</p>
+        <h1>Guillaume LEVEQUE</h1>
+        <p>Etudiant à la Web@cademie by EPITECH</p>
         <div class="button_linkedin">
             <LinkedinShareButton id="link_linkedin" url={"https://www.linkedin.com/in/guillaume-leveque-47b941208"}>
               <div><img src={Linkedin} width='30' height='30'></img></div>
@@ -98,7 +97,6 @@ class Dashboard extends Component {
         <div class="button">
             <div class="button_cv">
               <div id="button_contact"><AnchorLink href="#cvmain">View cv</AnchorLink></div>
-              <Modal show={this.state.show2} handleClose={this.hideModal2}><img id="cv_image" src={CV} width="530" height="650"></img></Modal>
             </div>
             <div class="button_mail">
               <Modal show={this.state.show} handleClose={this.hideModal}>
@@ -153,6 +151,14 @@ class Dashboard extends Component {
         </div>
     </div>
     <Cvhtml />
+    <div class="footer">
+      <div class="info_footer">
+        <p>Guillaume LEVEQUE Portfolio 2021</p>
+      </div>
+      <div class="info2_footer">
+        <p>Power by REACT</p>
+      </div>
+    </div>
       </main>
     );
   }

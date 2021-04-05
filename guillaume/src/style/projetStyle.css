@@ -102,13 +102,18 @@ Link {
   backface-visibility: hidden;
   
 }
-.flip-card-front{
-  opacity: 0.9;
+
+#flag{
+  margin-top: 100px;
+}
+#p4{
+  margin-top: 20px;
 }
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-color:whitesmoke;
+  opacity: 0.9;
   color: black;
 }
 
@@ -121,6 +126,7 @@ Link {
 .back_top{
   margin-left: 47%;
   margin-bottom: 2em;
+  text-decoration: none;
 }
 .back_top_button{
   border: 1px solid white;
@@ -130,6 +136,10 @@ Link {
   padding: 10px;
   color: white;
   transition: all 1s;
+}
+
+.back_top > a:nth-child(1) {
+  text-decoration: none;
 }
 .back_top_button:hover{
   background-color: #036d58;

@@ -53,6 +53,11 @@
     padding: 50px;
 }
 
+.global_cv_pdf > div:nth-child(1) > a:nth-child(1){
+    text-decoration: none;
+    color: white;
+}
+
 .profil_picture > img {
     border-radius: 20%;
     margin-top: 10px;
@@ -75,12 +80,24 @@
     font-weight: 700;
 }
 .global_cv_pdf{
-    margin-top: 200px;
+    margin-top: 100px;
     border: 1px solid white;
-    width: 5em;
+    width: 3.5em;
     height: 1.5em;
     padding: 5px;
     border-radius: 5px;
     background-color: teal;
     cursor: pointer;
+}
+.navbar_cv_grid_personnel > h2:nth-child(1){
+    border-bottom: 3px solid white;
+    width: 250px;
+}
+.global_cv_diplomes > h2:nth-child(1){
+    border-bottom: 3px solid white;
+    width: 140px;
+}
+.global_cv_diplomes > h2:nth-child(6){
+    border-bottom: 3px solid white;
+    width: 120px;
 }
