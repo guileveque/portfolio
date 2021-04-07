@@ -5,6 +5,7 @@ import P4 from "./img/p4.png";
 import CIEL from "./img/ciel.jpg";
 import {Link, Route, Switch} from "react-router-dom";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import SASS from './img/SASS.png';
 
 
 
@@ -17,7 +18,7 @@ function Projet(){
                         
                         <h2 id="subtitle_project">Projets réalisé par guillaume pendant la formation web@cademie</h2>
                         <div id="link_projet">
-                            <div id="button_contact"><Link to="/">Acceuil</Link></div>
+                            <div id="button_contact"><Link to="/">Accueil</Link></div>
                         </div>                   
                     </div>
                 </div>
@@ -68,7 +69,7 @@ function Projet(){
                     <div class="flip-card">
                         <div class="flip-card-inner">
                                 <div class="flip-card-front">
-                                    <img src={DevCrush} alt="Avatar" ></img>
+                                    <img id="sass" src={SASS} alt="Avatar" height="550" width="600"></img>
                                 </div>
                                 <div class="flip-card-back">
                                     <h1>Framework SASS</h1>
