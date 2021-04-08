@@ -16,7 +16,7 @@ function Projet(){
                     <div class="hero">
                         <h1 id="title_project">Projets</h1>
                         
-                        <h2 id="subtitle_project">Projets réalisé par guillaume pendant la formation web@cademie</h2>
+                        <h2 id="subtitle_project">Projets réalisé pendant la formation web@cademie</h2>
                         <div id="link_projet">
                             <div id="button_contact"><Link to="/">Accueil</Link></div>
                         </div>                   
@@ -31,24 +31,24 @@ function Projet(){
                                 <div class="flip-card-back">
                                     <h1>DevCrush</h1>
                                     <p>Création d'un site de rencontre</p>
-                                    <p>Utilisation de:<br></br> -PHP<br></br> -JQUERY/AJAX</p><br></br>
+                                    <p>Utilisation de:<br></br> -PHP<br></br> -JQUERY/AJAX<br></br> -SQL</p><br></br>
                                     <p>Architecture du code en MVC avec plusieurs contrainte comme<br></br> la creation d'un systeme de login pour les utilisateurs</p><br></br>
-                                    <p>Possibilité de mettre a jour son compte utilisateur depuis le menu</p><br></br>
-                                    <p>systemede match entre les utilisateurs avec<br></br> la possibilité de mettre plusieurs filtres</p>
+                                    <p>Possibilité de mettre a jour son compte utilisateur depuis le menu,</p><br></br>
+                                    <p>systeme de match entre les utilisateurs avec<br></br> la possibilité de mettre plusieurs filtres</p>
                                 </div>
                         </div>
                     </div>
                     <div class="flip-card">
                         <div class="flip-card-inner">
                                 <div class="flip-card-front">
-                                    <h3>Css generator</h3>
+                                    <h2>Css generator</h2>
                                     <img id="flag" src={Cssgenerator} alt="css generator" height="470" width="600"></img>
                                 </div>
                                 <div class="flip-card-back">
                                     <h1>CSS Generator</h1>
                                     <p>Création d'un sprite png</p>
                                     <p>Sprite generator est un script qui va générer<br></br> une png a partir de plusieurs images</p><br></br>
-                                    <p>Au lancement du script plusieurs options sont<br></br> possible de passer en argument, comme la<br></br> récursiviter des sous dossiers,<br></br> un padding entre les images, et le choix<br></br> des noms des fichiers généré.</p>
+                                    <p>Au lancement du script plusieurs options sont<br></br> possible d'être passé en argument, comme la<br></br> récursiviter des sous dossiers,<br></br> un padding entre les images, et le choix<br></br> des noms des fichiers générés.</p>
                                 </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ function Projet(){
                                 <div class="flip-card-back">
                                     <h1>Puissance 4</h1>
                                     <p>Puissance 4 en jQuery</p>
-                                    <p>Création d'un puissnace 4 dans un navigateur <br></br>avec plusieurs contraintre comme l'effet du jeton,<br></br> un tableau de score et la taille de la grille</p><br></br>
+                                    <p>Création d'un puissnace 4 dans un navigateur <br></br>avec plusieurs contraintes comme l'effet du jeton,<br></br> un tableau de score et la taille de la grille</p><br></br>
                                     <p>Le script est appelé par un plugin en jQuery.</p>
                                 </div>
                         </div>
@@ -69,13 +69,14 @@ function Projet(){
                     <div class="flip-card">
                         <div class="flip-card-inner">
                                 <div class="flip-card-front">
+                                    <h2>Framework SASS</h2>
                                     <img id="sass" src={SASS} alt="Avatar" height="550" width="600"></img>
                                 </div>
                                 <div class="flip-card-back">
                                     <h1>Framework SASS</h1>
                                     <p>Création du Framework CSS</p>
                                     <p>Framework basé sur le systeme de bootstrap.</p><br></br>
-                                    <p> Un systemes de grid principal et plusieurs autres<br></br> implémentation comme des options sur le text, image, buton ect</p>
+                                    <p>Un systeme de grid principal et plusieurs autres<br></br> implémentation comme des options sur le text, image, bouton ect</p>
                                 </div>
                         </div>
                     </div>

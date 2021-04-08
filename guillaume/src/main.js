@@ -48,7 +48,7 @@ class Dashboard extends Component {
   sendEmail =(e) => {
     e.preventDefault();
 
-    emailjs.sendForm(/*'service_opq364p'*/'g', 'template_eb9f3pp', e.target, 'user_tkxypSsomPEpESZcwelDY')
+    emailjs.sendForm('service_opq364p', 'template_eb9f3pp', e.target, 'user_tkxypSsomPEpESZcwelDY')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -87,7 +87,7 @@ class Dashboard extends Component {
     <div class="main_index">
       <div class="context">
         <h1>Guillaume LEVEQUE</h1>
-        <p>Etudiant à la Web@cademie by EPITECH</p>
+        <p id="sub-title">Etudiant à la Web@cademie by EPITECH</p>
         <div class="button_linkedin">
             <LinkedinShareButton id="link_linkedin" url={"https://www.linkedin.com/in/guillaume-leveque-47b941208"}>
               <div><img src={Linkedin} width='30' height='30'></img></div>
@@ -96,7 +96,7 @@ class Dashboard extends Component {
         </div>
         <div class="button">
             <div class="button_cv">
-              <div id="button_contact"><AnchorLink href="#cvmain">View cv</AnchorLink></div>
+              <div id="button_contact"><AnchorLink href="#cvmain">Voir cv</AnchorLink></div>
             </div>
             <div class="button_mail">
               <Modal show={this.state.show} handleClose={this.hideModal}>
@@ -116,11 +116,11 @@ class Dashboard extends Component {
                     </ul>
                   </div>
                   <form onSubmit={this.sendEmail}>
-                    <div id="title_modal">Contacter moi par E_mail</div>
-                    <input id="input_contact" type="text" name="name" placeholder="name" required></input>
-                    <input id="input_contact" type="email" name="email" placeholder="email" required></input>
-                    <input id="input_contact" type="text" name="subject" placeholder="sujet" required></input>
-                    <textarea id="input_contact_sujet" name="message" placeholder="Votre message" rows="10" cols="30" required></textarea>
+                    <div id="title_modal">Contactez moi par E-mail</div>
+                    <input id="input_contact" type="text" name="name" placeholder="Votre nom..." required></input>
+                    <input id="input_contact" type="email" name="email" placeholder="Votre email..." required></input>
+                    <input id="input_contact" type="text" name="subject" placeholder="Sujet..." required></input>
+                    <textarea id="input_contact_sujet" name="message" placeholder="Votre message..." rows="10" cols="30" required></textarea>
                     <input id="input_contact_submit" type="submit" value="Envoyer"  onClick={this.createNotification('success')}></input>
                   </form>
                 </div>
@@ -156,7 +156,7 @@ class Dashboard extends Component {
         <p>Guillaume LEVEQUE Portfolio 2021</p>
       </div>
       <div class="info2_footer">
-        <p>Power by REACT</p>
+        <p>Powered by REACT</p>
       </div>
     </div>
       </main>

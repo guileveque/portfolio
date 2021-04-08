@@ -38,6 +38,11 @@ body{
     }
   } 
 
+#sub-title{
+    font-size: 18px;
+    font-weight: 540;
+}
+
 .button_cv {
     margin-left: 50px;
 }

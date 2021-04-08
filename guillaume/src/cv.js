@@ -32,16 +32,16 @@ function Cvhtml() {
                         </div>
                         <div class="navbar_cv_grid_personnel">
                             <h2>Profil Personnel</h2>
-                            <p>Je suis motivé à ameliorer mes skills et mes connaissances.<br></br> J'aime réaliser des projets en équipe, tout en ayant la capacité d'être autonome</p>
+                            <p>Je suis motivé à ameliorer mes skills et mes connaissances.<br></br> J'aime réaliser des projets en équipe, tout en ayant la capacité d'être autonome.</p>
                         </div>
                     </div>
                     <div class="global_cv">
                         <div class="global_cv_diplomes">
                             <h2>Diplômes</h2>
-                            <p>Baccalaureat Scientifique 2018</p><br></br>
+                            <p>Baccalauréat Scientifique 2018</p><br></br>
                             <p>Web@cademie by EPITECH 2020 - en cours</p><br></br>
-                            <h2>Contact</h2>
-                            <p>Telephone : 06.16.68.36.57</p><br></br>
+                            <h2>Contacts</h2>
+                            <p>Téléphone : 06.16.68.36.57</p><br></br>
                             <p>E-mail : levequegui@gmail.com</p>
                         </div>
                         <div class="global_cv_pdf">
