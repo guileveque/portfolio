@@ -118,6 +118,9 @@
     }
     #cvmain > div > div.header_cv > div > div.profil_picture > img{
         margin-right: auto;
-        margin-left: 115px;
+        margin-left: 17%;
+    }
+    #cvmain{
+        margin-top: 130px;
     }
 }

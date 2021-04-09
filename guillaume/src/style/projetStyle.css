@@ -6,11 +6,13 @@ body{
   font-family: 'Exo', sans-serif;
 }
 #title_project{
-  margin-left: 46%;
+  /*margin-left: 46%;*/
+  text-align: center;
   color: white;
 }
 #subtitle_project{
-  margin-left: 34%;
+  /*margin-left: 34%;*/
+  text-align: center;
   color: white;
 }
 .section_title{
@@ -24,6 +26,7 @@ body{
 #button_contact > a:nth-child(1){
   text-decoration: none;
 }
+
 
 .container_main{
   margin-top: 100px;
@@ -104,19 +107,26 @@ Link {
 }
 @media screen and (max-width: 600px) {
   #flag{
-    width: 420px;
-    height: 500px;
+    width: 320px;
+    height: 400px;
   }
   #p4{
-    width: 420px;
-    height: 500px;
+    width: 320px;
+    height: 400px;
   }
   #sass{
-    width: 420px;
-    height: 500px;
+    width: 320px;
+    height: 400px;
   }
   #dev{
-    width: 420px;
+    width: 320px;
+    height: 400px;
+  }
+  #link_projet{
+    margin-left: 40%;
+  }
+  .back_top{
+    margin-left: 40%;
   }
 }
 
