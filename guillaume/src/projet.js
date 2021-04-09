@@ -16,7 +16,7 @@ function Projet(){
                     <div class="hero">
                         <h1 id="title_project">Projets</h1>
                         
-                        <h2 id="subtitle_project">Projets réalisé pendant la formation web@cademie</h2>
+                        <h2 id="subtitle_project">Projets réalisés pendant la formation web@cademie</h2>
                         <div id="link_projet">
                             <div id="button_contact"><Link to="/">Accueil</Link></div>
                         </div>                   
@@ -26,15 +26,15 @@ function Projet(){
                     <div class="flip-card">
                         <div class="flip-card-inner">
                                 <div class="flip-card-front">
-                                    <img src={DevCrush} alt="Avatar" height="600" width="600" ></img>
+                                    <img id="dev" src={DevCrush} alt="Avatar" height="600" width="600" ></img>
                                 </div>
                                 <div class="flip-card-back">
                                     <h1>DevCrush</h1>
                                     <p>Création d'un site de rencontre</p>
-                                    <p>Utilisation de:<br></br> -PHP<br></br> -JQUERY/AJAX<br></br> -SQL</p><br></br>
-                                    <p>Architecture du code en MVC avec plusieurs contrainte comme<br></br> la creation d'un systeme de login pour les utilisateurs</p><br></br>
-                                    <p>Possibilité de mettre a jour son compte utilisateur depuis le menu,</p><br></br>
-                                    <p>systeme de match entre les utilisateurs avec<br></br> la possibilité de mettre plusieurs filtres</p>
+                                    <p><br></br> -PHP<br></br> -JQUERY/AJAX<br></br> -SQL</p><br></br>
+                                    <p>Architecture du code en MVC avec plusieurs contraintes comme<br></br> la création d'un système de login pour les utilisateurs</p><br></br>
+                                    <p>Possibilité de mettre à jour son compte utilisateur depuis le menu,</p>
+                                    <p>système de match entre les utilisateurs avec<br></br> la possibilité de mettre plusieurs filtres</p>
                                 </div>
                         </div>
                     </div>
@@ -47,8 +47,8 @@ function Projet(){
                                 <div class="flip-card-back">
                                     <h1>CSS Generator</h1>
                                     <p>Création d'un sprite png</p>
-                                    <p>Sprite generator est un script qui va générer<br></br> une png a partir de plusieurs images</p><br></br>
-                                    <p>Au lancement du script plusieurs options sont<br></br> possible d'être passé en argument, comme la<br></br> récursiviter des sous dossiers,<br></br> un padding entre les images, et le choix<br></br> des noms des fichiers générés.</p>
+                                    <p>Sprite generator est un script qui va générer<br></br> un png à partir de plusieurs images.</p><br></br>
+                                    <p>Au lancement du script plusieurs arguments<br></br>peuvent-être passés en paramètre, comme la<br></br> récursivité des sous dossiers,<br></br> un padding entre les images et le choix<br></br> des noms des fichiers générés.</p>
                                 </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ function Projet(){
                                 <div class="flip-card-back">
                                     <h1>Puissance 4</h1>
                                     <p>Puissance 4 en jQuery</p>
-                                    <p>Création d'un puissnace 4 dans un navigateur <br></br>avec plusieurs contraintes comme l'effet du jeton,<br></br> un tableau de score et la taille de la grille</p><br></br>
+                                    <p>Création d'un puissance 4 dans un navigateur <br></br>avec plusieurs contraintes comme l'animation de la chute du jeton,<br></br> un tableau des scores et une taille de la grille modifiable.</p><br></br>
                                     <p>Le script est appelé par un plugin en jQuery.</p>
                                 </div>
                         </div>
@@ -75,8 +75,8 @@ function Projet(){
                                 <div class="flip-card-back">
                                     <h1>Framework SASS</h1>
                                     <p>Création du Framework CSS</p>
-                                    <p>Framework basé sur le systeme de bootstrap.</p><br></br>
-                                    <p>Un systeme de grid principal et plusieurs autres<br></br> implémentation comme des options sur le text, image, bouton ect</p>
+                                    <p>Framework basé sur le système de bootstrap.</p><br></br>
+                                    <p>Un système de grid principal et plusieurs autres<br></br> implémentations comme des options sur le texte, les images, les boutons...</p>
                                 </div>
                         </div>
                     </div>

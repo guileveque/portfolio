@@ -104,3 +104,20 @@
     border-bottom: 3px solid white;
     width: 120px;
 }
+
+@media screen and (max-width: 600px) {
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    #cvmain > div > div.header_cv > div > div.profil_title > div{
+        display: none;
+    }
+    #cvmain > div > div.header_cv > div > div.profil_picture{
+        width: 500px;
+    }
+    #cvmain > div > div.header_cv > div > div.profil_picture > img{
+        margin-right: auto;
+        margin-left: 115px;
+    }
+}

@@ -102,6 +102,23 @@ Link {
   backface-visibility: hidden;
   
 }
+@media screen and (max-width: 600px) {
+  #flag{
+    width: 420px;
+    height: 500px;
+  }
+  #p4{
+    width: 420px;
+    height: 500px;
+  }
+  #sass{
+    width: 420px;
+    height: 500px;
+  }
+  #dev{
+    width: 420px;
+  }
+}
 
 #flag{
   margin-top: 100px;

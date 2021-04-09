@@ -32,11 +32,18 @@ body{
     .button_projet {
         margin-bottom: 40px;
     }
-    .context {
-        top:1vh;
-        
+    
+    .circles{
+        width: 100vw;
+        height: 100vh;
     }
-  } 
+    .context{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        z-index: 10;
+    }
+} 
 
 #sub-title{
     font-size: 18px;
@@ -211,8 +218,8 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
 }
 

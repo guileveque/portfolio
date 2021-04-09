@@ -61,3 +61,13 @@ form {
 .display-block > section:nth-child(1) > div:nth-child(2){
   z-index: 1;
 }
+
+@media screen and (max-width: 600px) {
+  .modal-main{
+    width: 80%;
+  }
+  #button_modal{
+    display: inline;
+    background-color: red;
+  }
+}
